@@ -73,13 +73,15 @@
       padding: 0px;
     }
 
-    h6 + ul > li {
+    .li-class {
       background-color: #ff9900;
       padding-top: 6px;
       padding-bottom: 6px;
       padding-left: 22px;
       border-bottom: 1px solid #dfdfdf;
-      text-decoration: dotted;
+      text-decoration: none;
+      <!-- non capisco perchè non funziona il valore none di text-decoration -->
+      
     }
 
 
@@ -108,11 +110,11 @@
 
       <h6 class="luoghi-correlati">Luoghi correlati</h6>
       <ul>
-        <li><a href="https://it.wikipedia.org/wiki/Washington">Washington</a></li>
-        <li><a href="https://it.wikipedia.org/wiki/Oregon">Oregon</a></li>
-        <li><a href="https://it.wikipedia.org/wiki/Idaho">Idaho</a></li>
-        <li><a href="https://it.wikipedia.org/wiki/Wyoming">Wyoming</a></li>
-        <li><a href="https://it.wikipedia.org/wiki/Nebraska">Nebraska</a></li>
+        <li class="li-class"><a href="https://it.wikipedia.org/wiki/Washington">Washington</a></li>
+        <li class="li-class"><a href="https://it.wikipedia.org/wiki/Oregon">Oregon</a></li>
+        <li class="li-class"><a href="https://it.wikipedia.org/wiki/Idaho">Idaho</a></li>
+        <li class="li-class"><a href="https://it.wikipedia.org/wiki/Wyoming">Wyoming</a></li>
+        <li class="li-class"><a href="https://it.wikipedia.org/wiki/Nebraska">Nebraska</a></li>
       </ul>
     </div>
     <hr />
